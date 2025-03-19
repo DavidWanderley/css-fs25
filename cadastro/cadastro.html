@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro</title>
+
+    <link rel="stylesheet" href="cadastro.css" />
+  </head>
+  <body>
+    <h1>Garanta a sua vaga</h1>
+    <p>Preencha o Formulario</p>
+
+    <form>
+      <div class="dadosPessoais">
+        <p>Dados Pessoais</p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="telefone">Telefone:</label>
+        <input type="number" id="telefone" name="telefone" />
+      </div>
+
+      <div class="endereco">
+        <p>Endereço</p>
+        <label for="cep">CEP:</label>
+        <input type="number" id="cep" name="cep" />
+
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" />
+
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero" />
+
+        <label for="complemento">Complemento:</label>
+        <input type="text" id="complemento" name="complemento" />
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" />
+
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+          <option value="outro">Outro</option>
+          <option value="ceara">Ceara</option>
+          <option value="rioDeJaneiro">Rio de Janeiro</option>
+          <option value="saoPaulo">Sao Paulo</option>
+        </select>
+
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+          <option value="outroCidade">Outro</option>
+          <option value="fortaleza">Fortaleza</option>
+          <option value="rioDeJaneiroCidade">Rio de Janeiro</option>
+          <option value="saoPauloCidade">Sao Paulo</option>
+        </select>
+      </div>
+    </form>
+
+    <a href="/index.html" target="_self"><button class="home">Home</button></a>
+  </body>
+</html>

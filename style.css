@@ -42,6 +42,21 @@ a:hover {
     box-shadow: 2px 2px 10px #0000001a;
 }
 
+.cadastro {
+  background-color: #4e4e4e;
+  color: white;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.cadastro:hover {
+  background-color: #000000;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
